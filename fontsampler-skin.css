@@ -126,7 +126,7 @@
   position: relative;
   padding-left: 23px;
 }
-/*.fsjs-skin .fsjs-block-type-checkboxes input[type=checkbox] + span:before, .fsjs-skin .fsjs-block-type-checkboxes input[type=checkbox] + span:after {
+.fsjs-skin .fsjs-block-type-checkboxes input[type=checkbox] + span:before, .fsjs-skin .fsjs-block-type-checkboxes input[type=checkbox] + span:after {
   content: " ";
   display: block;
   border: 1px solid #333;
@@ -144,7 +144,7 @@
   padding: 0;
   top: 2px;
   left: 4px;
-}*/
+}
 .fsjs-skin .dk-select,
 .fsjs-skin .dk-select *,
 .fsjs-skin .dk-select *:before,
@@ -169,7 +169,7 @@
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  background-color: transparent;
+  background-color: none;
   border: 1px solid #121212;
   border-radius: 2px;
   padding: 0.1em 0.5em 0;
@@ -184,7 +184,7 @@
   position: absolute;
   right: 0;
 }
-/*.fsjs-skin .dk-selected:before {
+.fsjs-skin .dk-selected:before {
   top: 50%;
   border: solid transparent;
   border-width: 0.25em 0.25em 0;
@@ -195,7 +195,7 @@
   top: 0;
   height: 100%;
   border-left: 1px solid #121212;
-  margin: 0 1.5em 0 0;*/
+  margin: 0 1.5em 0 0;
 }
 .fsjs-skin .dk-selected-disabled {
   color: #BBBBBB;
