@@ -64,7 +64,7 @@
 .fsjs-skin .fsjs-button, .fsjs-skin .fsjs-block-type-buttongroup button {
   /*background: #FDFDFD;*/
   border: 1px solid #121212;
-  border-radius: 1px;
+  border-radius: 50%;
   color: #ffffff;
   cursor: pointer;
   flex-grow: 1;
