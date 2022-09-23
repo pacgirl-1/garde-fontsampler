@@ -62,8 +62,8 @@
   outline: none;
 }
 .fsjs-skin .fsjs-button, .fsjs-skin .fsjs-block-type-buttongroup button {
-  background: #FDFDFD;
-  border: 1px solid #b3b3b3;
+  /*background: #FDFDFD;*/
+  border: 1px solid #121212;
   border-radius: 2px;
   color: inherit;
   cursor: pointer;
