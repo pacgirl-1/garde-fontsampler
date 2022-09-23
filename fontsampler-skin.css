@@ -69,7 +69,7 @@
   flex-grow: 1;
   font-family: inherit;
   font-size: true;
-  font-style: normal;
+  font-style: inherit;
   line-height: 2em;
   padding: 0.1em 0.5em 0;
 }
@@ -216,7 +216,7 @@
   top: 100%;
 }
 .fsjs-skin .dk-select-multi .dk-select-options {
-  max-height: 10em;
+  max-height: 5em;
 }
 .fsjs-skin .dk-select-options {
   background-color: inherit;
