@@ -24,7 +24,6 @@
 }
 .fsjs-skin .fsjs-block-tester {
   display: block;
-}
 .fsjs-skin .fsjs-block,
 .fsjs-skin [data-axis-block] {
   box-sizing: border-box;
@@ -207,12 +206,12 @@
   right: 0;
 }
 .fsjs-skin .dk-select-open-up .dk-select-options {
-  border-radius: 2px 2px 0 0;
+  border-radius: 20px 20px 0 0;
   margin-bottom: -1px;
   bottom: 100%;
 }
 .fsjs-skin .dk-select-open-down .dk-select-options {
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 20px 20px;
   margin-top: -1px;
   top: 100%;
 }
@@ -241,7 +240,7 @@
   line-height: 2em;
 }
 .fsjs-skin .dk-select-options .dk-option-highlight {
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 .fsjs-skin .dk-select-options .dk-option-disabled {
   color: #BBBBBB;
