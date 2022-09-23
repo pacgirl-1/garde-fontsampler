@@ -86,12 +86,12 @@
   border-radius: 0;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button:first-of-type {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button:last-of-type {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 0px;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button + button {
   margin-left: -1px;
@@ -168,8 +168,8 @@
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  background-color: #FDFDFD;
-  border: 1px solid #b3b3b3;
+  background-color: inherit;
+  border: 1px solid #121212;
   border-radius: 2px;
   padding: 0.1em 0.5em 0;
   padding-right: 1.5em;
@@ -187,13 +187,13 @@
   top: 50%;
   border: solid transparent;
   border-width: 0.25em 0.25em 0;
-  border-top-color: #333;
+  border-top-color: #121212;
   margin: -0.125em 0.5em 0 0;
 }
 .fsjs-skin .dk-selected:after {
   top: 0;
   height: 100%;
-  border-left: 1px solid #b3b3b3;
+  border-left: 1px solid #121212;
   margin: 0 1.5em 0 0;
 }
 .fsjs-skin .dk-selected-disabled {
@@ -206,12 +206,12 @@
   right: 0;
 }
 .fsjs-skin .dk-select-open-up .dk-select-options {
-  border-radius: 20px 20px 0 0;
+  border-radius: 2px 0px 0 0;
   margin-bottom: -1px;
   bottom: 100%;
 }
 .fsjs-skin .dk-select-open-down .dk-select-options {
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 2px 2px;
   margin-top: -1px;
   top: 100%;
 }
@@ -219,7 +219,7 @@
   max-height: 10em;
 }
 .fsjs-skin .dk-select-options {
-  background-color: white;
+  background-color: inherit;
   border: 1px solid #b3b3b3;
   border-radius: 20px;
   list-style: none;
