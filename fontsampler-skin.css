@@ -184,7 +184,7 @@
   position: absolute;
   right: 0;
 }
-.fsjs-skin .dk-selected:before {
+/*.fsjs-skin .dk-selected:before {
   top: 50%;
   border: solid transparent;
   border-width: 0.25em 0.25em 0;
@@ -196,7 +196,7 @@
   height: 100%;
   border-left: 1px solid #b3b3b3;
   margin: 0 1.5em 0 0;
-}
+}*/
 .fsjs-skin .dk-selected-disabled {
   color: #BBBBBB;
 }
@@ -232,6 +232,7 @@
   width: auto;
   z-index: 100;
 }
+
 .fsjs-skin .dk-select-options-highlight .dk-option-selected {
   background-color: transparent;
   color: inherit;
