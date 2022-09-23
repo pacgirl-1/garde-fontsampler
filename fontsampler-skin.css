@@ -63,7 +63,7 @@
 }
 .fsjs-skin .fsjs-button, .fsjs-skin .fsjs-block-type-buttongroup button {
   /*background: #FDFDFD;*/
-  border: 3px solid #ff0000;
+  border: 1px solid #121212;
   border-radius: 50%;
   color: #ffffff;
   cursor: pointer;
@@ -75,10 +75,10 @@
   padding: 0.1em 0.5em 0;
 }
 .fsjs-skin .fsjs-button:hover, .fsjs-skin .fsjs-block-type-buttongroup button:hover, .fsjs-skin .fsjs-button:focus, .fsjs-skin .fsjs-block-type-buttongroup button:focus {
-  background: #f0f0f0;
+  background: #ffffff;
 }
 .fsjs-skin .fsjs-button.fsjs-button-selected, .fsjs-skin .fsjs-block-type-buttongroup button.fsjs-button-selected {
-  background: #f0f0f0;
+  background: #ffffff;
 }
 .fsjs-skin .fsjs-block-type-buttongroup > [data-property] {
   display: flex;
@@ -87,12 +87,12 @@
   border-radius: 0;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button:first-of-type {
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button:last-of-type {
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .fsjs-skin .fsjs-block-type-buttongroup button + button {
   margin-left: -1px;
@@ -103,7 +103,7 @@
   display: block;
 }
 .fsjs-skin .fsjs-block-type-checkboxes [data-fsjs] label:hover input[type=checkbox] + span:before, .fsjs-skin .fsjs-block-type-checkboxes [data-fsjs] label:focus input[type=checkbox] + span:before {
-  background: #f0f0f0;
+  background: #ffffff;
 }
 .fsjs-skin .fsjs-block-type-checkboxes input[type=checkbox] {
   position: absolute;
@@ -114,7 +114,7 @@
 }
 .fsjs-skin .fsjs-block-type-checkboxes label.fsjs-checkbox-inactive {
   pointer-events: none;
-  color: #DDD;
+  color: #ffffff;
 }
 .fsjs-skin .fsjs-block-type-checkboxes label.fsjs-checkbox-inactive input[type=checkbox] + span:before, .fsjs-skin .fsjs-block-type-checkboxes label.fsjs-checkbox-inactive input[type=checkbox] + span:after {
   border-color: #DDD;
