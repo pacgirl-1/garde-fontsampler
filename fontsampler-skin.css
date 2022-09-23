@@ -338,14 +338,14 @@
 }
 .fsjs-skin .fsjs-disabled .rangeSlider {
   pointer-events: none;
-  background-color: #DDD;
+  background-color: #inherit;
 }
 .fsjs-skin .fsjs-disabled .rangeSlider .rangeSlider__handle,
 .fsjs-skin .fsjs-disabled .rangeSlider .rangeSlider__fill {
-  background-color: #DDD;
+  background-color: #inherit;
 }
 .fsjs-skin .fsjs-disabled .dk-select .dk-selected {
-  color: #DDD;
+  color: #inherit;
 }
 .fsjs-skin [data-fsjs-block=variation] {
   display: none;
