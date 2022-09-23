@@ -38,6 +38,7 @@
 }
 .fsjs-skin .fsjs-label {
   line-height: 1.5em;
+  font-weight: normal;
 }
 .fsjs-skin .fsjs-block-type-slider .fsjs-label,
 .fsjs-skin .fsjs-block-type-slidergroup .fsjs-label {
@@ -68,16 +69,16 @@
   cursor: pointer;
   flex-grow: 1;
   font-family: inherit;
-  font-size: 14px;
-  font-style: 400;
+  font-size: inherit;
+  font-style: inherit;
   line-height: 2em;
   padding: 0.1em 0.5em 0;
 }
 .fsjs-skin .fsjs-button:hover, .fsjs-skin .fsjs-block-type-buttongroup button:hover, .fsjs-skin .fsjs-button:focus, .fsjs-skin .fsjs-block-type-buttongroup button:focus {
-  background: #ffffff;
+  /*background: #ffffff;*/
 }
 .fsjs-skin .fsjs-button.fsjs-button-selected, .fsjs-skin .fsjs-block-type-buttongroup button.fsjs-button-selected {
-  background: #ffffff;
+ /* background: #ffffff;*/
 }
 .fsjs-skin .fsjs-block-type-buttongroup > [data-property] {
   display: flex;
