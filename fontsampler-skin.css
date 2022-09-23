@@ -68,8 +68,8 @@
   cursor: pointer;
   flex-grow: 1;
   font-family: inherit;
-  font-size: true;
-  font-style: inherit;
+  font-size: 14px;
+  font-style: 400;
   line-height: 2em;
   padding: 0.1em 0.5em 0;
 }
